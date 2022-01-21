@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Blocks Experiment</title>
+    <script src="jspsych/jspsych.js"></script>
+        <script src="plugins/plugin-html-keyboard-response.js"></script>
+        <script src="plugins/plugin-image-keyboard-response.js"></script>
+        <script src="plugins/plugin-image-button-response-EDITED.js"></script>
+        <script src="plugins/plugin-image-button-response-2.js"></script>
+        <script src="plugins/plugin-survey-multi-choice.js"></script>
+        <script src="plugins/plugin-preload.js"></script>
+        <link href="jspsych.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body></body>
+  <script>
+
+    /* initialize jsPsych */
+    var jsPsych = initJsPsych({
+      on_finish: function() {
+        jsPsych.data.displayData();
+      }
+    });
+
+    </script>
+    <script src="blocks_main.js"></script>
+    <script>
+
+    
+
+
+
+
+
+    /* start the experiment */
+    jsPsych.run(timeline);
+
+    /* print data to console */
+    var data = jsPsych.data.get().filter({trial_type: "image-button-response"});
+    console.log(jsPsych.data)
+
+
+    </script>
+</html> 
