@@ -6,4 +6,8 @@
 
 You can demo the task [here](https://vawfux9apy.cognition.run/). The “neutral” condition (first part of the task) is pretty simple. The two other conditions (“cooperation” and “competition”) are more complicated, and involve betting with a virtual “teammate” or “opponent”.
 
-**Note:* When the demo asks for a “Prolific ID”, just type any random sequence of numbers or letters into the space provided, and you will be allowed to continue to the experiment.*
+*Note: When the demo asks for a “Prolific ID”, just type any random sequence of numbers or letters into the space provided, and you will be allowed to continue to the experiment.
+
+<ins>__Task overview:__</ins>
+
+<img width="1137" alt="Screenshot 2024-02-25 at 11 08 37 AM" src="https://github.com/mcd710/blocks/assets/96343556/0a824142-03d5-40bb-9324-e09ff00f7380">
